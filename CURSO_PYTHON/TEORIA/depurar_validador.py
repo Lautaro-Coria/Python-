@@ -59,8 +59,8 @@ def main():
     isbn = values[0]
     length = int(values[1])
     if length == 10 or length == 13:
-    validate_isbn(isbn, length)
+        validate_isbn(isbn, length)
     else:
-    print('Length should be 10 or 13.')
+        print('Length should be 10 or 13.')
 
 main()
